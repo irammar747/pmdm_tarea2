@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tarea 2</string>
+    <string name="image">Imagen del personaje</string>
+    <string name="name">Nombre del Personaje</string>
+    <string name="descripcion">Descripcion del Personaje</string>
+    <string name="habilidades">Habilidades del Personaje</string>
+    <string name="lista_personajes">Lista de Personajes</string>
+    <string name="detalles_personajes">Detalles del Personaje</string>
+    <string name="acerca_de">Acerca de...</string>
+</resources>

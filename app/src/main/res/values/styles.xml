@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo base -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+        <item name="colorPrimary">#FF0303</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!-- Estilo para TextViews -->
+    <style name="TextViewStyle">
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Estilo para CardView -->
+    <style name="CardViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item> <!-- Margen alrededor del CardView -->
+        <item name="android:padding">16dp</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardBackgroundColor">@color/cardBackground</item>
+    </style>
+
+    <!-- Estilo para la imagen dentro del CardView -->
+    <style name="ImageViewInCardStyle">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:clipToOutline">true</item><!-- Habilita el recorte con borde redondeado -->
+        <item name="android:outlineProvider">background</item>
+        <item name="android:scaleType">fitCenter</item> <!-- Ajuste de la imagen -->
+        <item name="android:layout_marginBottom">8dp</item> <!-- Margen debajo de la imagen -->
+    </style>
+
+    <!-- Estilo para el TextView dentro del CardView -->
+    <style name="TextViewInCardStyle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">30sp</item> <!-- Tamaño de la fuente -->
+        <item name="android:textStyle">bold</item> <!-- Estilo de texto en negrita -->
+        <item name="android:gravity">center</item> <!-- Centrar el texto -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/name</item>
+    </style>
+
+    <!-- Estilo para Buttons -->
+    <style name="ButtonStyle">
+        <item name="android:background">@color/buttonColor</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Estilo para RecyclerView -->
+    <style name="RecyclerViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">16dp</item>
+    </style>
+</resources>
