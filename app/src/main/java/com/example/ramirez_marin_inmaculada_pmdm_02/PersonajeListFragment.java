@@ -12,6 +12,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.example.ramirez_marin_inmaculada_pmdm_02.databinding.PersonajeListFragmentBinding;
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.ArrayList;
 import java.util.Objects;
@@ -41,6 +42,8 @@ public class PersonajeListFragment extends Fragment {
         binding.personajeRecyclerview.setLayoutManager(new LinearLayoutManager(getContext()));
         binding.personajeRecyclerview.setAdapter(adapter);
 
+        // Mostrar el Snackbar después de cargar la lista de personajes
+        Snackbar.make(requireActivity().findViewById(android.R.id.content), R.string.welcome, Snackbar.LENGTH_LONG).show();
     }
 
     // Método para cargar juegos (puedes implementar tu lógica aquí)

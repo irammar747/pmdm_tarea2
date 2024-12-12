@@ -3,8 +3,8 @@
     <!-- Estilo base -->
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
         <item name="colorPrimary">#FF0303</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorMario</item>
+        <item name="colorAccent">@color/colorLuigi</item>
         <item name="android:textColor">@color/textColor</item>
     </style>
 

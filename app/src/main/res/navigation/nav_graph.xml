@@ -1,29 +1,7 @@
-<!--<?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:startDestination="@id/mainFragment">
-
-    &lt;!&ndash; Definición del MainFragment &ndash;&gt;
-    <fragment
-        android:id="@+id/mainFragment"
-        android:name="com.example.ramirez_marin_inmaculada_pmdm_02.PersonajeListFragment"
-        android:label="Main Fragment"
-        app:layout="@layout/personaje_list_fragment">
-        <action
-            android:id="@+id/action_personajeList_to_personajeDetail"
-            app:destination="@id/detailFragment" />
-    </fragment>
-
-    &lt;!&ndash; Definición del GameDetailFragment &ndash;&gt;
-    <fragment
-        android:id="@+id/detailFragment"
-        android:name="com.example.ramirez_marin_inmaculada_pmdm_02.PersonajeDetailFragment"
-        android:label="Detail Fragment"
-        app:layout="@layout/personaje_detail_fragment" />
-</navigation>-->
 <navigation
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     app:startDestination="@id/mainFragment">
     <!--  Cambia esto al fragmento inicial de tu app  -->
     <!--  Definición del MainFragment  -->
@@ -38,4 +16,9 @@
         android:id="@+id/personajeDetailFragment"
         android:name="com.example.ramirez_marin_inmaculada_pmdm_02.PersonajeDetailFragment"
         android:label="Personaje Detail Fragment"/>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.ramirez_marin_inmaculada_pmdm_02.SettingFragment"
+        android:label="fragment_setting" />
+
 </navigation>

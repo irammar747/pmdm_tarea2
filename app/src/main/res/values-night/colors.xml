@@ -2,10 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="colorMario">#e72020</color>
-    <color name="colorLuigi">#049416</color>
+    <color name="colorMario">#640F0F</color>
+    <color name="colorLuigi">#095214</color>
     <color name="textColor">#FFFFFF</color>
-    <color name="buttonColor">#FF6200EE</color>
-    <color name="cardBackground">#B6DB1B24</color>
+    <color name="buttonColor">#321162</color>
+    <color name="cardBackground">#B66B1219</color>
 
 </resources>

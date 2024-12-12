@@ -2,12 +2,14 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Ramirez_Marin_INmaculada_PMDM_02" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorMario</item>
+        <item name="colorAccent">@color/colorLuigi</item>
+        <item name="android:windowBackground">@drawable/fondo_claro</item>
 
         <!--SplashScreen Configuration-->
         <item name="android:windowSplashScreenAnimatedIcon">@drawable/image_splash</item>
         <item name="android:windowSplashScreenAnimationDuration">2500</item>
-        <item name="android:windowSplashScreenIconBackgroundColor">@color/colorPrimary</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/colorMario</item>
         <item name="android:windowSplashScreenBackground">@color/cardBackground</item>
 
     </style>

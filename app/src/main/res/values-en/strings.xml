@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Activity 2</string>
+    <string name="image">Character Image</string>
+    <string name="name">Character Name</string>
+    <string name="descripcion">Character Description</string>
+    <string name="habilidades">Character Abilities</string>
+    <string name="lista_personajes">Character List</string>
+    <string name="detalles_personajes">Character Details</string>
+    <string name="acerca_de">About...</string>
+    <string name="home">Home</string>
+    <string name="ajustes">Settings</string>
+    <string name="open_drawer">Open Menu</string>
+    <string name="close_drawer">Close Menu</string>
+    <string name="welcome">Welcome to the Mario\'s World!!!</string>
+
+    <string-array name="language_options">
+        <item>Spanish</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>es</item>
+        <item>en</item>
+    </string-array>
+
+</resources>

@@ -50,6 +50,8 @@ dependencies {
     //Para la splash
     implementation("androidx.core:core-splashscreen:1.0.1")
 
+    //Para la preference
+    implementation("androidx.preference:preference:1.2.1")
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)

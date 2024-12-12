@@ -7,4 +7,20 @@
     <string name="lista_personajes">Lista de Personajes</string>
     <string name="detalles_personajes">Detalles del Personaje</string>
     <string name="acerca_de">Acerca de...</string>
+    <string name="home">Home</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="open_drawer">Abrir menú</string>
+    <string name="close_drawer">Cerrar menú</string>
+    <string name="welcome">¡Bienvenidos al mundo de Mario!</string>
+
+    <string-array name="language_options">
+        <item>Español</item>
+        <item>Inglés</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>es</item>
+        <item>en</item>
+    </string-array>
+
 </resources>
